@@ -1,5 +1,5 @@
 package Linked_List;
-class Q1_Remove_Nth_node_fromEnd_19 {
+class Q1_Add_Two_Number_2 {
     // creating the node;
     public static class ListNode {
         int val;
