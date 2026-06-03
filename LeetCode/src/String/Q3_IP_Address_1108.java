@@ -1,4 +1,4 @@
-package string;
+package String;
 
 public class Q3_IP_Address_1108 {
     static void main() {

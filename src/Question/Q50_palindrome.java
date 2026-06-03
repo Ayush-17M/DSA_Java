@@ -6,9 +6,9 @@ public class Q50_palindrome {
     static void main() {
         Scanner sc = new Scanner(System.in);
         System.out.println("Welcome to palindrome checker: ");
-        System.out.print("Enter the string to be checked: ");
+        System.out.print("Enter the String to be checked: ");
         String str = sc.next();
-        System.out.println("Your string is " + (isPalindrome(str) ? "Palindrome" : "Not Palindrome"));
+        System.out.println("Your String is " + (isPalindrome(str) ? "Palindrome" : "Not Palindrome"));
     }
     static boolean isPalindrome(String str){
         if(str.length() <= 1){

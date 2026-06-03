@@ -1,5 +1,4 @@
-package string;
-import java.awt.List;
+package String;
 import java.util.*;
 
 public class Q7_phonePad_17 {

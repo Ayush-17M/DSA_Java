@@ -1,4 +1,4 @@
-package string;
+package String;
 
 public class Q2_check_sentence_Pangram_1832 {
     static void main() {

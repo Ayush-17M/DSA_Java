@@ -1,4 +1,4 @@
-package string;
+package String;
 
 public class Q9_Add_String_415 {
     static void main() {

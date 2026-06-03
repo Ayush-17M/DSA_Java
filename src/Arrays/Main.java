@@ -21,7 +21,7 @@ public class Main {
 
         String[] arr;
         arr = new String[5];
-        System.out.print("Array element in string :");
+        System.out.print("Array element in String :");
         System.out.println(arr[0]);
 
         int[] array={1,2,5,5,6,2,};

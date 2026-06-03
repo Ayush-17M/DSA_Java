@@ -3,12 +3,12 @@ import java.util.Arrays;
 
 public class search_In_String {
     static void main(String[] args) {
-        System.out.println("Finding the target element is present in this string are not? ");
+        System.out.println("Finding the target element is present in this String are not? ");
         String name = "Ayush Kumar";
         char target = 'K';
         System.out.println(name);
         System.out.println(name.toCharArray());
-        System.out.println(Arrays.toString(name.toCharArray()));  // converting the string into arrays.
+        System.out.println(Arrays.toString(name.toCharArray()));  // converting the String into arrays.
 
         System.out.println(search(name,target));
     }

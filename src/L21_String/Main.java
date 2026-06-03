@@ -20,7 +20,7 @@ public class Main {
             char ch = (char)('a'+i);
             st += ch;
         }
-        System.out.println(st);   //  here string is immutable so string are create new object every time when loop run.
+        System.out.println(st);   //  here String is immutable so String are create new object every time when loop run.
 //        That is the reason we will use stringBuilder. stringBuilder in mutable it can change or modify.
 
         String name = "Ayush Kumar Hello world";
@@ -31,12 +31,12 @@ public class Main {
         System.out.println("    Ayush    ".strip());    //remove the space
         System.out.println(Arrays.toString(name.split(" ")));
 
-//        WAP to check the string in palindrome or not.
+//        WAP to check the String in palindrome or not.
         Scanner sc = new Scanner(System.in);
-        System.out.print("Enter the string: ");
+        System.out.print("Enter the String: ");
         String str = sc.next();
         str = str.toLowerCase();
-        System.out.println("Given string is " + (palindrome(str) ? "palindrome" : "not palindrome"));
+        System.out.println("Given String is " + (palindrome(str) ? "palindrome" : "not palindrome"));
     }
     static boolean palindrome (String str){
         int start=0;

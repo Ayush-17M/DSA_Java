@@ -1,4 +1,4 @@
-package string;
+package String;
 
 public class Q8_Multiply_String_43 {
     public static void main(String[] args) {
@@ -31,7 +31,7 @@ public class Q8_Multiply_String_43 {
             }
         }
 
-        // Convert array to string
+        // Convert array to String
         StringBuilder result = new StringBuilder();
 
         for(int num : ans){

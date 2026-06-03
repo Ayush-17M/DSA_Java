@@ -2,7 +2,7 @@ package DSA_Question;
 
 public class A_grade {
 
-//    Q1. write a program to print all combination of the given string Ex- ABC,ABC,BCA,CAB,CBA,BAC,ACB
+//    Q1. write a program to print all combination of the given String Ex- ABC,ABC,BCA,CAB,CBA,BAC,ACB
     static void main() {
         String str = "ABC";
         permute(str, 0);

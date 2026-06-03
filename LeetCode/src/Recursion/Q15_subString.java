@@ -32,7 +32,7 @@ public class Q15_subString {
             return ch + skip(up.substring(1));
         }
     }
-//    remove apple word in string
+//    remove apple word in String
     static String skipApple(String up){
         if (up.isEmpty()){
             return "";

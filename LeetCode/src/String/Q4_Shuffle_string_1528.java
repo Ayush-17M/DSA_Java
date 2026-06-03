@@ -1,5 +1,5 @@
-package string;
-import java.util.*;
+package String;
+
 public class Q4_Shuffle_string_1528 {
     static void main() {
         String s = "codeleet";

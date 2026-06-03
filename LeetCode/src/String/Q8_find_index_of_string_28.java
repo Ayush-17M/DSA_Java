@@ -1,4 +1,4 @@
-package string;
+package String;
 
 public class Q8_find_index_of_string_28 {
     static void main() {
