@@ -1,23 +1,9 @@
 package Tree;
 import java.util.*;
 
-//      Definition for a binary tree node.
-class TreeNode {
-    int val;
-    TreeNode left;
-    TreeNode right;
-    TreeNode() {}
-    TreeNode(int val) { this.val = val; }
-    TreeNode(int val, TreeNode left, TreeNode right) {
-        this.val = val;
-        this.left = left;
-        this.right = right;
-    }
-}
-
 public class Q1_Level_Order_Traversal_102 {
     public List<List<Integer>> levelOrder(TreeNode root) {
-        List<List<Integer>> result = new ArrayList<>();
+        List<List<Integer>> result = new ArrayList<>();  // storing the final leve order.
 
         if(root == null) {
             return result;
@@ -29,20 +15,21 @@ public class Q1_Level_Order_Traversal_102 {
         while (!queue.isEmpty()){
             int levelSize = queue.size();
 
+            // creating the single list to store the level of node.
             List<Integer> currentLevel = new ArrayList<>(levelSize);
             for(int i=0; i < levelSize; i++){
                 TreeNode currentNode = queue.poll();
-                currentLevel.add(currentNode.val);
+                currentLevel.add(currentNode.val); // the value of node is stored.
 
-                if(currentNode.left != null){
+                if(currentNode.left != null){ // if left node is accrued
                     queue.offer(currentNode.left);
                 }
-                if(currentNode.right != null){
+                if(currentNode.right != null){ // if right node is accrued
                     queue.offer(currentNode.right);
                 }
             }
 
-            result.add(currentLevel);
+            result.add(currentLevel); // Store the collection of level node into a final list.
         }
         return result;
     }
