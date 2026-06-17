@@ -3,7 +3,7 @@ package Tree;
 import java.util.LinkedList;
 import java.util.Queue;
 
-public class Q8_Symmetric_Tree {
+public class Q8_Symmetric_Tree_101 {
     public boolean isSymmetric(TreeNode root) {
         // Level Order Triversing
 
