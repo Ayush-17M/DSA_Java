@@ -3,9 +3,9 @@ package Tree;
 import java.util.LinkedList;
 import java.util.Queue;
 
-public class Q8_Symmetric_Tree_101 {
+public class Q9_Symmetric_Tree_101 {
     public boolean isSymmetric(TreeNode root) {
-        // Level Order Triversing
+        // Level Order Traversing
 
         // creating the queue of store the node.
         Queue<TreeNode> queue =  new LinkedList<>();
