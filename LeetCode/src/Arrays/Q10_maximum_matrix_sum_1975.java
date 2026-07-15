@@ -1,4 +1,4 @@
-package Arrays;
+package L3_Arrays;
 
 public class Q10_maximum_matrix_sum_1975 {
     static void main() {
