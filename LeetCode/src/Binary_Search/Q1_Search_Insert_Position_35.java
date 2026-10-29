@@ -8,13 +8,33 @@ public class Q1_Search_Insert_Position_35 {
         int targer=7;
         System.out.println(searchInsert(arr,targer));
     }
-    static int searchInsert(int[] nums, int target){
-        int index=0;
-        for(int ele: nums){
-            if(ele < target){
-                index++;
+//    static int searchInsert(int[] nums, int target){
+//        int index=0;
+//        for(int ele: nums){
+//            if(ele < target){
+//                index++;
+//            }
+//        }
+//        return index;
+//    }
+
+    public static int searchInsert(int[] nums, int target) {
+        int start = 0;
+        int end = nums.length - 1;
+
+        while(start <= end){
+            int mid = end - start / 2 + start;
+
+            if(nums[mid] == target){
+                return mid;
+            }
+            if(target < nums[mid]){
+                end = mid - 1;
+            }
+            else{
+                start = mid + 1;
             }
         }
-        return index;
+        return start;
     }
 }
