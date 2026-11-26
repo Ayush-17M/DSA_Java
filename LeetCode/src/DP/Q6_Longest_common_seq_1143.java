@@ -22,4 +22,5 @@ public class Q6_Longest_common_seq_1143 {
 
         return dp[n][m];
     }
+
 }
